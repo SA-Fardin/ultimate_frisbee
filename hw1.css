@@ -1,0 +1,149 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 15px;
+}
+
+header {
+	background: url(flywheel.jpg);
+	width: 100%;
+	background-color: rgb(29, 132, 242);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+}
+
+h1 {
+	color: rgb(0, 0, 0);
+	font-size: 21px;
+	font-variant: small-caps;
+	text-align: center;
+}
+
+nav {
+	padding-top: 7px;
+	margin-left: 359px;
+	padding-bottom: 25px;
+}
+
+nav a {
+	color: rgb(0, 0, 0);
+	padding: 5px;
+	padding-left: 21px;
+	padding-right: 21px;
+	background: transparent;
+	border: solid 1px rgb(0, 0, 0);
+	width: 25px;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-left: 40px;
+}
+
+nav a:nth-child(1){
+	padding-left: 47px;
+	padding-right: 47px;
+}
+
+nav a:nth-child(2){
+	padding-left: 47px;
+	padding-right: 47px;
+}
+
+nav a:nth-child(3){
+	padding-left: 47px;
+	padding-right: 47px;
+}
+
+.active {
+	color: rgb(255, 255, 255);;
+	background-color: rgb(0, 0, 0);
+	border: 1px solid rgb(255, 255, 255);
+}
+
+.left {
+	float: left;
+}
+
+.left {
+	background-color: rgb(141, 198, 252);
+	width: 30%;
+	
+}
+
+.right{
+	width: 69%;
+	text-align: left;
+	float:right;
+	margin-top: 20px;
+	margin-right: 0;
+}
+
+
+img {
+	display: inline-block;
+	margin-left: 70px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 300px;
+	height: 200px;
+	border: 3px solid rgb(0, 128, 249);
+}
+
+table {
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: normal;
+	line-height: 15px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+th {
+	color: rgb(255, 255, 255);
+	text-align: center;
+	background-color: rgb(141, 198, 252);
+	font-size: 19px; 
+	padding: 9px; 
+	border: 2px solid rgb(19, 98, 173);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top: 21px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-shadow: 3px 3px 9px rgb(11, 129, 239);	
+}
+
+th:nth-child(1){
+	text-align: left;
+}
+
+tr {
+	opacity: .10s;	
+}
+
+tr:hover {
+	opacity: .6;	
+}
+
+td {
+	text-align: center;
+	color: rgb(0, 0, 0);
+	padding: 10px;
+	background-color: rgb(191, 225, 242);
+	border: 2px solid rgb(191, 225, 242);
+	border-radius: 3px;
+	text-shadow: 2px 2px 8px rgb(0, 166, 249);
+}
+
+td:nth-child(1){
+	text-align: left;
+}
+
+/* The End! */
+
+
